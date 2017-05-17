@@ -1,0 +1,372 @@
+/*
+Theme Name: Levison Custom Theme
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Kali Rogers
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+
+
+/*Add your own styles here:*/
+
+/*General Overall Styles */
+
+.av-special-heading-h4 {
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+}
+
+h4 {
+    letter-spacing:1.5px;
+}
+
+h3 > a:hover {
+    color:#939598 !important;
+}
+
+body .column-top-margin {
+    margin-top: 15px;
+}
+
+.content {
+    border: none;
+}
+
+#top #main .sidebar {
+    border: none;
+}
+
+.container_wrap {
+    border: none;
+}
+
+/*Homepage: Featured Buttons*/
+.featured-text {
+    text-align: center;
+    color: #ffffff !important;
+    line-height: 1.35em;
+}
+
+.featured-text a {
+    text-decoration: none;
+}
+
+#top .avia-button-fullwidth .avia_button_icon, #top .avia-button-fullwidth .avia_iconbox_title {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+#av-layout-grid-1 > div:first-child {
+    background: url("http://localhost:8888/Levison/wp-content/uploads/2017/01/Development_blue.jpg") !important;
+    background-size: cover!important;
+}
+#av-layout-grid-1 > div:first-child:hover {
+    background: url("http://localhost:8888/Levison/wp-content/uploads/2017/01/Development.jpg") !important;
+    background-size: cover!important;
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease; 
+    text-shadow: 1px 1px #000000;
+}
+
+#av-layout-grid-1 > div:nth-child(2) {
+    background: url("http://localhost:8888/Levison/wp-content/uploads/2017/01/Engineering_blue.jpg") !important;
+    background-size: cover!important;
+}
+#av-layout-grid-1 > div:nth-child(2):hover {
+    background: url("http://localhost:8888/Levison/wp-content/uploads/2017/01/Engineering.jpg") !important;
+    background-size: cover!important;
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    text-shadow: 1px 1px #000000;
+}
+
+#av-layout-grid-1 > div:nth-child(3) {
+    background: url("http://localhost:8888/Levison/wp-content/uploads/2017/01/Manufacturing_blue.jpg") !important;
+    background-size: cover!important;
+}
+#av-layout-grid-1 > div:nth-child(3):hover {
+    background: url("http://localhost:8888/Levison/wp-content/uploads/2017/01/Manufacturing.jpg") !important;
+    background-size: cover!important;
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    text-shadow: 1px 1px #000000;
+}
+
+#av-layout-grid-1 > div:nth-child(4) {
+    background: url("http://localhost:8888/Levison/wp-content/uploads/2017/01/Support_blue.jpg") !important;
+    background-size: cover!important;
+}
+#av-layout-grid-1 > div:nth-child(4):hover {
+    background: url("http://localhost:8888/Levison/wp-content/uploads/2017/01/Support.jpg") !important;
+    background-size: cover!important;
+    /*background-size:850px 850px;*/
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease; 
+    text-shadow: 1px 1px #000000;
+}
+
+/*button set to transparent to make entire cell a link*/
+
+.flex_cell_inner .avia-button.avia-button-fullwidth {
+    background-color: transparent !important;
+}
+
+/*selects just full width button on homepage*/
+.page-id-20 #av-layout-grid-1 .avia-button-fullwidth {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+
+/*Homepage: Experience Section*/
+
+.icon-circle {
+    width:75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    border: 1px solid red;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.experience-text {
+    padding-top:30px;
+}
+
+/*Homepage: Post Slider Styles */
+.avia-content-slider .slide-image {
+    width: 40%;
+    float: right;
+}
+
+.avia-content-slider .slide-entry-excerpt {
+    padding-right:50px;
+}
+
+#top .avia-content-slider .avia-slideshow-arrows a {
+    top: 50%;
+}
+
+#top .avia-slideshow-arrows a {
+    border-radius: 50%;
+}
+
+.html_elegant-blog .avia-content-slider .read-more-link {
+    top:0px;
+}
+
+.slide-entry-wrap .image-overlay {
+display: none!important;
+}
+
+.avia-content-slider .slide-image img {
+    width:100%;
+    border: 1px solid #e1e1e1;
+}
+
+.taxonomy-images-the-terms:before, .taxonomy-images-the-terms:after {
+    display: inline-block;
+}
+
+.avia-content-slider .slide-meta time {
+    display: none;
+}
+
+
+/*Blog page styles*/  
+
+.post_author_timeline {
+    display: none;
+}
+
+.small-preview {
+    width: 181px;
+    height: 181px;
+}
+
+.html_elegant-blog #top .post-entry .post-title, .html_elegant-blog .avia-content-slider .slide-entry-title {
+    text-align: left;
+    padding: 0px;
+}
+
+.html_elegant-blog #top .post-entry .blog-categories {
+    text-align: left;
+}
+
+.page-id-14 .small-preview {
+    height: 100%;
+}
+.page-id-14 .blog-meta {
+    float: left!important;
+    width: 180px!important;
+    height: 180px!important;
+}
+
+.html_elegant-blog .av-vertical-delimiter {
+    display: none;
+}
+
+.html_elegant-blog #top .post-entry .post-meta-infos {
+    float: none;
+}
+
+/* changes to the meta info (date, author)*/
+
+.html_elegant-blog #top .post-entry .post-meta-infos, .html_elegant-blog .avia-content-slider .slide-meta {
+    border: none;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.post-title .entry-title h2  {
+    margin-bottom:0px;
+}
+
+
+.taxonomy-images-the-terms li {
+    margin: 0px;
+}
+
+.avia-content-slider .entry-title {
+    margin-top: 5px;
+}
+
+.html_elegant-blog #top .avia-content-slider .blog-categories {
+    top:0px;
+}
+
+.entry-content-wrapper li {
+    padding: 0px;
+}
+
+/*resize the category image */
+span.blog-categories.minor-meta > ul > li > a > img {
+    opacity: 0.5;
+    width: 20px;
+    margin-right:5px;
+}
+
+span.blog-categories.minor-meta > ul > li > a {
+    color: #939598 !important;
+    letter-spacing: 1px;
+}
+
+.entry-content-wrapper li {
+    margin-left: 0px;
+}
+
+
+
+/* Blog Sidebar Widget */
+.icon-circle-sidebar {
+    width:50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 9px;
+    border: 1px solid gray;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.experience-text-sidebar {
+    margin-bottom:36px;
+}
+
+.experience-text-sidebar h3 {
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+/*interior page styles*/
+.interior-pgtitle {
+    text-shadow: 1px 1px #000000;
+    font-size: 50px;
+    text-align: center;
+    color:white !important;
+}
+
+.footer-imagetitle {
+    font-size: 40px;
+    color: white !important;
+    text-align: center;
+}
+
+.js_active .toggler {
+    color: #0876AA;
+    border: 0px;
+    background-color: transparent;
+}
+
+.js_active .toggler:hover {
+    border: 1px solid #e1e1e1;
+}
+
+.toggle_content {
+    border-top: 1px solid;
+}
+
+img, a img {
+    height:100%;
+    width: auto;
+    max-width: none;
+}
+
+
+/*media queries for mobile devices */
+@media (max-width: 767px) {
+    #footer .widget {
+        margin: 5px 0px 0px 0px;}
+    
+    .interior-pgtitle {
+    font-size: 30px;}
+    
+    .avia-content-slider .slide-image {
+    width: 100%;
+    clear: both;}
+
+.avia-content-slider .slide-entry-excerpt {
+    padding-right:0px;}
+    
+    /*make featured boxes 50%*/
+    .responsive #top #wrap_all .av-flex-cells .no_margin {
+        width: 50%;
+        float: left;
+        height: 0px !important;
+    }
+    
+    #top .avia-button-fullwidth {
+        font-size: 1.1em;
+    }
+    
+    /*post slider*/    
+    .taxonomy-images-the-terms:before, .taxonomy-images-the-terms:after {
+    display: block;
+}
+    
+    .icon-circle {
+        margin-bottom:40px;
+    }    
+    
+}
+
+
+
+
